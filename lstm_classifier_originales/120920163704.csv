@@ -1,0 +1,6 @@
+round_epochs,loss,accuracy,val_loss,val_accuracy,batch_size,dropout,emb_dim,epochs,fc1_dim,kernel_initializer,losses,lr,lstm_dim,optimizer
+11,1.4916760921478271,0.6372548937797546,0.0,0.0,16,0.5,25,100,256,normal,categorical_crossentropy,0.005,128,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>
+11,1.129903793334961,0.6372548937797546,0.0,0.0,16,0.5,25,500,512,uniform,categorical_crossentropy,0.005,128,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>
+11,1.3794554471969604,0.6372548937797546,0.0,0.0,16,0.5,50,500,512,uniform,categorical_crossentropy,0.01,128,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>
+11,1.1395020484924316,0.6372548937797546,0.0,0.0,32,0.5,50,100,256,normal,categorical_crossentropy,0.005,128,<class 'tensorflow.python.keras.optimizer_v2.adam.Adam'>
+11,1.3062398433685303,0.6372548937797546,0.0,0.0,16,0,50,100,128,normal,categorical_crossentropy,0.01,128,<class 'tensorflow.python.keras.optimizer_v2.gradient_descent.SGD'>
